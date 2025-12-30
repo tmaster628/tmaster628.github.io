@@ -19,10 +19,13 @@ function App() {
           <div className="flex-3 flex-col">
             <p>
               I'm a computer scientist and educator currently based in{" "}
-              <b>San Francisco.</b>{" "}
+              <b>New York.</b>{" "}
             </p>
             <p>
-              My area of focus is the intersection of <b>Computer Science</b>{" "}
+              I'm currently the CTO and co-founder of <a href="https://www.locatahealth.com/" target="_blank">Locata</a>, a YC-backed referral automation startup.
+            </p>
+            <p>
+              Outside of work, my area of focus is the intersection of <b>Computer Science</b>{" "}
               and <b>Education</b>, and I'm particularly interested in how the
               learner's experience has been affected by modern technology,
               especially given the omnipresence of LLM's.{" "}
@@ -43,46 +46,25 @@ function App() {
               </a>{" "}
             </p>
             <p>
-              I'm currently a <b>research assistant</b> at Prof.{" "}
+              More recently, I was a <b>research assistant</b> at Prof.{" "}
               <a
                 href="https://web.stanford.edu/~cgregg/chris-gregg/"
                 target="_blank"
               >
                 Chris Gregg
               </a>
-              's{" "}
-              <a href="https://pincs.stanford.edu/" target="_blank">
-                PinCS lab
-              </a>
-              , a new group whose focus is <b>P</b>edagogy <b>in</b> <b>C</b>
-              omputer <b>S</b>cience. We're rolling out a platform that allows
+              's PinCS Lab, a new group whose focus is <b>P</b>edagogy <b>in</b> <b>C</b>
+              omputer <b>S</b>cience. We created a <a href="https://pincs.stanford.edu/interactive-lessons" target="_blank">platform</a> that allows
               anyone to create interdisciplinary lessons that enrich
               non-computational subjects with CS.
             </p>
             <p>
-              I'm also working with Prof.{" "}
-              <a href="https://cs.stanford.edu/~keithw/" target="_blank">
-                Keith Winstein
-              </a>{" "}
-              on a brand-new{" "}
-              <a
-                href="https://navigator.stanford.edu/classes/1266/29731"
-                target="_blank"
-              >
-                introductory engineering course
-              </a>{" "}
-              that blends CS and EE concepts in an engaging medium. The course
-              should be ready in the Spring of 2026. We're currently working on{" "}
-              <b>Codillon</b>, the first structured editor for WebAssembly.
-            </p>
-            <p>
-              This fall, I'll be an <b>adjunct lecturer</b> at Stanford. I'll be
-              teaching{" "}
+              During that time, I was also an <b>adjunct lecturer</b> at Stanford. I taught{" "}
               <a href="https://web.stanford.edu/class/cs80e/" target="_blank">
                 CS80E
               </a>
               , a Computer Architecture course I created in 2023 as a graduate
-              student.
+              student. We had about 30 students with a handful of auditors, and we had a great time!
             </p>
             <p>
               I'm always eager to chat with people about the CS / Education
@@ -91,8 +73,7 @@ function App() {
             </p>
             <br />
             <p>Here are some links, if you're curious:</p>
-            <a href={"/CV.pdf"}>My CV</a>
-            <br />
+            { /*<a href={"/CV.pdf"}>My CV</a>*/}
             <a href="https://github.com/tmaster628" target="_blank">
               My Github
             </a>
