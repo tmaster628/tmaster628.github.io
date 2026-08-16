@@ -13,71 +13,35 @@ function App() {
          ))}
        </header> */}
       <Outlet />
-      <main className="p-6">
+      <main className="p-6 w-screen">
         <h1>Hi, I'm Trip 👋</h1>
-        <div className="flex flex-row  gap-4">
-          <div className="flex-3 flex-col">
+        <div className="flex w-screen flex-row justify-between">
+          <div className="flex flex-3 flex-col">
             <p>
-              I'm a computer scientist and educator currently based in{" "}
-              <b>New York.</b>{" "}
+              I'm currently a <a href="https://www.locatahealth.com/" target="_blank">CTO</a>!
             </p>
             <p>
-              I'm currently the CTO and co-founder of <a href="https://www.locatahealth.com/" target="_blank">Locata</a>, a YC-backed referral automation startup.
-            </p>
-            <p>
-              Outside of work, my area of focus is the intersection of <b>Computer Science</b>{" "}
-              and <b>Education</b>, and I'm particularly interested in how the
-              learner's experience has been affected by modern technology,
-              especially given the omnipresence of LLM's.{" "}
-            </p>
-            <p>
-              Previously, I worked as a <b>full-stack engineer</b> at the EdTech
-              company{" "}
-              <a href="https://www.kira-learning.com/" target="_blank">
-                Kira
-              </a>
-              , where I was the <b>engineering lead</b> for a number of
-              projects, including a few AI-driven features{" "}
-              <a
+              Previously, I built <a
                 href="https://www.youtube.com/watch?v=8m4T8ooO5hs&t=1164s"
                 target="_blank"
               >
-                you can see here.
-              </a>{" "}
+                things
+              </a> thing in <a href="https://www.kira-learning.com/" target="_blank">EdTech</a>.
             </p>
             <p>
-              More recently, I was a <b>research assistant</b> at Prof.{" "}
-              <a
-                href="https://web.stanford.edu/~cgregg/chris-gregg/"
-                target="_blank"
-              >
-                Chris Gregg
-              </a>
-              's PinCS Lab, a new group whose focus is <b>P</b>edagogy <b>in</b> <b>C</b>
-              omputer <b>S</b>cience. We created a <a href="https://pincs.stanford.edu/interactive-lessons" target="_blank">platform</a> that allows
-              anyone to create interdisciplinary lessons that enrich
-              non-computational subjects with CS.
-            </p>
-            <p>
-              During that time, I was also an <b>adjunct lecturer</b> at Stanford. I taught{" "}
-              <a href="https://web.stanford.edu/class/cs80e/" target="_blank">
-                CS80E
-              </a>
-              , a Computer Architecture course I created in 2023 as a graduate
-              student. We had about 30 students with a handful of auditors, and we had a great time!
-            </p>
-            <p>
-              I'm always eager to chat with people about the CS / Education
-              space or about my hobbies. Or maybe you just want to know if "Trip
-              Master" is my real name. Either way, let's talk!
+              I was also doing               <a href="https://pincs.stanford.edu/interactive-lessons/" target="_blank">
+                research
+              </a> and               <a href="https://web.stanford.edu/class/cs80e/" target="_blank">
+                teaching
+              </a> at Stanford.
             </p>
             <br />
-            <p>Here are some links, if you're curious:</p>
+            <br />
+            <p>Here are some (currently-unattended) links, if you're curious:</p>
             { /*<a href={"/CV.pdf"}>My CV</a>*/}
             <a href="https://github.com/tmaster628" target="_blank">
               My Github
             </a>
-            <br />
             <Link to={"/"}>My Hobbies (coming soon!)</Link>
             <br />
           </div>
